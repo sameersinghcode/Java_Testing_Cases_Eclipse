@@ -8,7 +8,9 @@ public class addnumber1 {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Java_Unit_TestFunctions junit = new Java_Unit_TestFunctions();
+		int result = junit.addnumber(100, 200);
+		assertEquals (300, result);
 	}
 
 }
